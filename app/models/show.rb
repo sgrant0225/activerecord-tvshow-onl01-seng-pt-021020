@@ -23,5 +23,6 @@ class Show < ActiveRecord::Base
   def self.popular_shows 
    Show.collect do |element|
      binding.pry
+   end
   end  
 end  
