@@ -21,6 +21,7 @@ class Show < ActiveRecord::Base
   end  
   
   def self.popular_shows 
-   new_
+   Show.collect do |element|
+     binding.pry
   end  
 end  
