@@ -21,8 +21,6 @@ class Show < ActiveRecord::Base
   end  
   
   def self.popular_shows 
-   Show.collect do |element|
-     binding.pry
-   end
+   Show.
   end  
 end  
